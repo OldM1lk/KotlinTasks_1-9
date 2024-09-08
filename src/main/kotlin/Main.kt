@@ -9,11 +9,11 @@ fun discriminant(a: Double, b: Double, c: Double): Double {
 }
 
 fun rootsNumber(a: Double, b: Double, c: Double): Int {
-    val D = discriminant(a, b, c)
+    val d = discriminant(a, b, c)
 
     when {
-        D > 0 -> return 2
-        D == 0.0 -> return 1
+        d > 0 -> return 2
+        d == 0.0 -> return 1
         else -> return 0
     }
 }
